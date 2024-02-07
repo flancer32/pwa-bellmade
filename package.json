@@ -1,0 +1,32 @@
+{
+  "name": "@flancer32/pwa-bellmade",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Demo PWA for Eric Spector.",
+  "homepage": "https://github.com/flancer32/pwa-bellmade/",
+  "bugs": {
+    "url": "https://github.com/flancer32/pwa-bellmade/issues",
+    "email": "alex@flancer32.com"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Alex Gusev",
+    "email": "alex@flancer64.com",
+    "url": "https://github.com/flancer64"
+  },
+  "repository": "github:flancer32/pwa-bellmade",
+  "scripts": {
+    "help": "node ./bin/tequila.mjs -h",
+    "start": "node ./bin/tequila.mjs web-server-start -w -1",
+    "stop": "node ./bin/tequila.mjs web-server-stop",
+    "version": "node ./bin/tequila.mjs core-version"
+  },
+  "dependencies": {
+    "@teqfw/core": "github:teqfw/core",
+    "@teqfw/di": "github:teqfw/di",
+    "@teqfw/ui-quasar": "github:teqfw/ui-quasar",
+    "@teqfw/vue": "github:teqfw/vue",
+    "@teqfw/web": "github:teqfw/web"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,60 @@
+/* Styles for layout(s) */
+
+@font-face {
+    font-family: 'Robuck Rounded';
+    src: url('/font/Robuck_Rounded.ttf') format('truetype');
+}
+
+.t-label .q-item__label,
+.t-footer > DIV {
+    font-family: 'Robuck Rounded', sans-serif;
+    font-kerning: normal;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 0.95 !important;
+    font-variation-settings: "wght" 500 !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.t-label A {
+    color: black;
+}
+
+.t-buttons2 {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.t-buttons BUTTON {
+    height: 70px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.t-copyright {
+    color: white;
+    font-family: system-ui !important;
+    font-size: 16px !important;
+    font-variation-settings: "wght" 500 !important;
+    font-weight: 725;
+    letter-spacing: normal;
+    line-height: 1.2;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.t-copyright > DIV {
+    padding-top: 20px;
+}
+
+DIV.t-copyright {
+    padding-bottom: 25px;
+}
+
+.t-instagram A {
+    color: white;
+    font-size: 20px;
+    font-weight: 725;
+}

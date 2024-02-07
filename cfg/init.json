@@ -1,0 +1,13 @@
+{
+  "@teqfw/core": {
+    "devMode": false
+  },
+  "@teqfw/web": {
+    "server": {
+      "port": 9999,
+      "useHttp1": true,
+      "useWebSocket": false
+    },
+    "urlBase": "pwa.bellmade.com"
+  }
+}
